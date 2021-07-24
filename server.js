@@ -7,6 +7,6 @@ app.set('view engine','ejs')
 
 // Defining route with request and response variables
 app.get('/',(req,res) => {
-    res.render('index')
+    res.render('index')                  // rendering index.ejs
 })
 app.listen(process.env.PORT || 5000);
